@@ -3,5 +3,5 @@
 # "app mode". This option should be removed if publishing a "conventional" notebook that is 
 # intended to be executed cell-by-cell.
 /usr/bin/invoke_app "$@" -C "start_jupyter -t -T @tool workshop_2021.ipynb" \
--t workshop_2021 \
+-t imagesegment \
 -u anaconda-6
